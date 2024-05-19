@@ -17,6 +17,14 @@ public class SelecaoCandidatos {
         public double getPropostaSalario() {
             return propostaSalario;
         }
+
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
+
+        public void setPropostaSalario(double propostaSalario) {
+            this.propostaSalario = propostaSalario;
+        }
     }
 
     public static class SelecaoException extends Exception {
